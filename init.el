@@ -24,6 +24,7 @@
 (load-file (concat dotfiles-dir "setup/yoeight-helm.el"))
 (load-file (concat dotfiles-dir "setup/yoeight-flycheck.el"))
 (load-file (concat dotfiles-dir "setup/yoeight-haskell.el"))
+(load-file (concat dotfiles-dir "setup/yoeight-javascript.el"))
 (load-file (concat dotfiles-dir "setup/yoeight-project.el"))
 
 ;; restclient
