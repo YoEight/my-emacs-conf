@@ -4,6 +4,6 @@
 
 (set-face-attribute 'default nil :height 120)
 (load-theme 'github t)
-(set-face-attribute 'default nil :font "PragmataPro-13")
+(set-face-attribute 'default nil :font "Go Mono-13")
 
 (provide 'yoeight-theme)
