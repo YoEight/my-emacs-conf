@@ -1,26 +1,26 @@
 (require 'yoeight-package)
 
 ;; Install Flycheck.
-(use-package flycheck
-  :config
-  ;; Start it automatically for all modes except ELisp mode,
-  ;; where the linter is just designed to make you mad.
-  (add-hook 'find-file-hook
-            (lambda ()
-              (when (not (equal 'emacs-lisp-mode major-mode))
-                (flycheck-mode)))))
+;; (use-package flycheck
+;;   :config
+;;   ;; Start it automatically for all modes except ELisp mode,
+;;   ;; where the linter is just designed to make you mad.
+;;   (add-hook 'find-file-hook
+;;             (lambda ()
+;;               (when (not (equal 'emacs-lisp-mode major-mode))
+;;                 (flycheck-mode)))))
 
-;; Jump between current errors with M-n and M-p.
-(global-set-key (kbd "M-n") 'next-error)
-(global-set-key (kbd "M-p") 'previous-error)
+;; ;; Jump between current errors with M-n and M-p.
+;; (global-set-key (kbd "M-n") 'next-error)
+;; (global-set-key (kbd "M-p") 'previous-error)
 
-;; Turn the modeline red when Flycheck has errors.
-(use-package flycheck-color-mode-line
-  :config
-  ;; Configure the theme.
-  (with-eval-after-load "flycheck"
-    (setq flycheck-highlighting-mode 'symbols)
-    (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)))
+;; ;; Turn the modeline red when Flycheck has errors.
+;; (use-package flycheck-color-mode-line
+;;   :config
+;;   ;; Configure the theme.
+;;   (with-eval-after-load "flycheck"
+;;     (setq flycheck-highlighting-mode 'symbols)
+;;     (add-hook 'flycheck-mode-hook 'flycheck-color-mode-line-mode)))
 
 
 ;;(add-hook
