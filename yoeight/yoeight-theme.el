@@ -3,7 +3,8 @@
 (add-to-list 'load-path (concat dotfiles-dir "themes"))
 
 (set-face-attribute 'default nil :height 120)
-(load-theme 'github t)
+(package-require 'darkokai)
+;; (load-theme 'darkokai)
 (set-face-attribute 'default nil :font "Go Mono-13")
 
 (provide 'yoeight-theme)

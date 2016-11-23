@@ -56,9 +56,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("70403e220d6d7100bae7775b3334eddeb340ba9c37f4b39c189c2c29d458543b" default)))
  '(package-selected-packages
    (quote
-    (restclient helm-projectile projectile intero flycheck-color-mode-line flycheck swiper-helm helm-swoop helm-ag helm nyan-mode hlinum f use-package paradox))))
+    (use-package swiper-helm restclient paradox nyan-mode intero hlinum helm-swoop helm-projectile helm-ag f darkokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
