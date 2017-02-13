@@ -31,7 +31,7 @@
 ;; Maximise Emacs frame
 ;;(set-frame-parameter nil 'fullscreen 'maximized)
 (setq initial-frame-alist '((top . 0) (left . 0)
-                            (width . 150) (height . 53)))
+                            (width . 84) (height . 53)))
 ;; Don't defer screen updates when performing operations.
 (setq redisplay-dont-pause t)
 

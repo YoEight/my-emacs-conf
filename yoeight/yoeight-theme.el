@@ -4,7 +4,7 @@
 
 (set-face-attribute 'default nil :height 120)
 (package-require 'darkokai-theme)
-;;(load-theme 'darkokai-theme)
-(set-face-attribute 'default nil :font "Go Mono-13")
+;; (load-theme 'darkokai)
+(set-face-attribute 'default nil :font "Inconsolata-14")
 
 (provide 'yoeight-theme)

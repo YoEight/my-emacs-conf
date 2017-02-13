@@ -61,7 +61,7 @@
     ("70403e220d6d7100bae7775b3334eddeb340ba9c37f4b39c189c2c29d458543b" default)))
  '(package-selected-packages
    (quote
-    (use-package swiper-helm restclient paradox nyan-mode intero hlinum helm-swoop helm-projectile helm-ag f darkokai-theme))))
+    (markdown-mode yaml-mode use-package swiper-helm restclient paradox nyan-mode intero hlinum helm-swoop helm-projectile helm-ag f darkokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
